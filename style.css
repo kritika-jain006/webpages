@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:linear-gradient(135deg,#edf5ff,#d7eaff);
+    color:#333;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+}
+
+/* ================= HEADER ================= */
+
+header{
+    background:linear-gradient(135deg,#2563eb,#1d4ed8);
+    color:white;
+    text-align:center;
+    padding:20px;
+    box-shadow:0 4px 10px rgba(0,0,0,.15);
+}
+
+header h1{
+    font-size:34px;
+    margin-bottom:12px;
+}
+
+/* ================= NAVIGATION ================= */
+
+nav{
+    margin-top:8px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    margin:0 10px;
+    padding:10px 22px;
+    border-radius:30px;
+    transition:.3s;
+    font-size:16px;
+    font-weight:500;
+}
+
+nav a:hover,
+.active{
+    background:white;
+    color:#2563eb;
+}
+
+/* ================= HOME PAGE ================= */
+
+.hero{
+    flex:1;
+    width:90%;
+    max-width:1100px;
+    margin:35px auto;
+    background:white;
+    border-radius:18px;
+    padding:70px 50px;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    box-shadow:0 8px 20px rgba(0,0,0,.12);
+}
+
+.hero h2{
+    color:#2563eb;
+    font-size:36px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    width:70%;
+    font-size:18px;
+    line-height:1.8;
+    margin-bottom:35px;
+}
+
+/* ================= BUTTONS ================= */
+
+.buttons{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:18px;
+}
+
+.btn{
+    text-decoration:none;
+    background:#2563eb;
+    color:white;
+    padding:12px 32px;
+    border-radius:30px;
+    font-size:16px;
+    transition:.3s;
+}
+
+.resume-btn{
+    text-decoration:none;
+    background:#10b981;
+    color:white;
+    padding:12px 32px;
+    border-radius:30px;
+    font-size:16px;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#1d4ed8;
+    transform:translateY(-3px);
+}
+
+.resume-btn:hover{
+    background:#059669;
+    transform:translateY(-3px);
+}
+
+/* ================= COMMON SECTION ================= */
+
+section{
+    width:90%;
+    max-width:1000px;
+    margin:35px auto;
+    background:white;
+    border-radius:18px;
+    padding:40px;
+    box-shadow:0 8px 20px rgba(0,0,0,.12);
+}
+
+h2{
+    color:#2563eb;
+    text-align:center;
+    font-size:30px;
+    margin-bottom:20px;
+}
+
+h3{
+    color:#2563eb;
+    font-size:22px;
+    margin-top:30px;
+    margin-bottom:15px;
+}
+
+p{
+    font-size:16px;
+    line-height:1.8;
+}
+
+/* ================= TABLE ================= */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:15px;
+}
+
+th{
+    background:#2563eb;
+    color:white;
+}
+
+th,
+td{
+    border:1px solid #ddd;
+    padding:12px;
+    text-align:center;
+}
+
+tr:nth-child(even){
+    background:#f3f7ff;
+}
+
+/* ================= SKILLS ================= */
+
+.skills{
+    margin-top:15px;
+}
+
+.skills span{
+    display:inline-block;
+    margin:6px;
+    padding:8px 16px;
+    background:#2563eb;
+    color:white;
+    border-radius:20px;
+    font-size:15px;
+}
+
+/* ================= LIST ================= */
+
+ul{
+    margin-left:25px;
+    margin-top:10px;
+}
+
+li{
+    margin-bottom:8px;
+    font-size:16px;
+}
+
+/* ================= CONTACT FORM ================= */
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+input,
+textarea{
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:15px;
+}
+
+input:focus,
+textarea:focus{
+    outline:none;
+    border-color:#2563eb;
+}
+
+button{
+    padding:12px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#1d4ed8;
+}
+
+/* ================= FOOTER ================= */
+
+footer{
+    margin-top:auto;
+    background:#2563eb;
+    color:white;
+    text-align:center;
+    padding:18px;
+    font-size:15px;
+}
